@@ -18,7 +18,7 @@ contract TieredProfitSplitter {
     }
 
     function deposit() public payable {
-        uint points = msg.value / 100; // Calculates rudimentary percentage by dividing msg.value into 100 units
+        uint points = (msg.value / 100); // Calculates rudimentary percentage by dividing msg.value into 100 units
         uint total;
         uint amount;
 
